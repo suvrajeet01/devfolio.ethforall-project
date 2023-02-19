@@ -1,0 +1,46 @@
+{
+  "name": "@startertemp/nextjs-hardhat",
+  "version": "1.1.5",
+  "bin": "./bin/cli.js",
+  "description": "A Starter Template for Next JS, with Hardhat(Solidity) Javascript backend.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startertemp/nextjs-hardhat.git"
+  },
+  "keywords": [
+    "template",
+    "nextjs",
+    "solidity",
+    "hardhat",
+    "ethersjs",
+    "openzeppelin",
+    "startertemp",
+    "learnweb3dao"
+  ],
+  "author": {
+    "name": "Yanuka Deneth",
+    "email": "yanuka@asciix.com",
+    "url": "https://linktr.ee/yanukadeneth99"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/startertemp/nextjs-hardhat/issues"
+  },
+  "homepage": "https://github.com/startertemp/nextjs-hardhat#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "next": "^12.3.1",
+    "next-seo": "^5.11.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "web3modal": "^1.9.9",
+    "@rainbow-me/rainbowkit": "^0.7.4",
+    "wagmi": "^0.7.8"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.1"
+  }
+}
