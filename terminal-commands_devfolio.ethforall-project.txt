@@ -1,0 +1,2238 @@
+my-app mdifications
+
+mkdir 1
+cd 1
+
+npx create-next-app@latest
+move from 1 to my-app -- > cd ..
+delete 1 [size : approx 55.2 - 55.7 mb]
+
+npm install web3modal
+
+
+npm install ethers@5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv>git clone https://github.com/suvrajeet01/devfolio.ethforall-project.git
+Cloning into 'devfolio.ethforall-project'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\suv>cd devfolio.ethforall-project
+
+C:\suv\devfolio.ethforall-project>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+C:\suv\devfolio.ethforall-project>git clone https://github.com/suvrajeet01/lw3.io_whitelist-dapp.git
+Cloning into 'lw3.io_whitelist-dapp'...
+remote: Enumerating objects: 43, done.
+remote: Counting objects: 100% (43/43), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 43 (delta 1), reused 40 (delta 1), pack-reused 0R
+Receiving objects: 100% (43/43), 147.70 KiB | 379.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+C:\suv\devfolio.ethforall-project>git clone https://github.com/suvrajeet01/lw3.io_nft-collection.git
+Cloning into 'lw3.io_nft-collection'...
+remote: Enumerating objects: 91, done.
+remote: Counting objects: 100% (91/91), done.
+Receiving objects:  20% (19/91)0% (56/56), done.
+remote: Total 91 (delta 30), reused 85 (delta 27), pack-reused 0
+Receiving objects: 100% (91/91), 178.49 KiB | 388.00 KiB/s, done.
+Resolving deltas: 100% (30/30), done.
+
+C:\suv\devfolio.ethforall-project>git clone https://github.com/suvrajeet01/lw3.io_ico.git
+Cloning into 'lw3.io_ico'...
+remote: Enumerating objects: 56, done.
+remote: Counting objects: 100% (56/56), done.
+remote: Compressing objects: 100% (44/44), done.
+remote: Total 56 (delta 5), reused 53 (delta 5), pack-reused 0
+Receiving objects: 100% (56/56), 180.02 KiB | 332.00 KiB/s, done.
+Resolving deltas: 100% (5/5), done.
+
+C:\suv\devfolio.ethforall-project>git clone https://github.com/suvrajeet01/lw3.io_dao.git
+Cloning into 'lw3.io_dao'...
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (88/88), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 88 (delta 21), reused 78 (delta 14), pack-reused 0R
+Receiving objects: 100% (88/88), 49.68 KiB | 290.00 KiB/s, done.
+Resolving deltas: 100% (21/21), done.
+
+C:\suv\devfolio.ethforall-project>git clone https://github.com/suvrajeet01/lw3.io_dex.git
+Cloning into 'lw3.io_dex'...
+remote: Enumerating objects: 73, done.
+remote: Counting objects: 100% (73/73), done.
+remote: Compressing objects: 100% (58/58), done.
+Receiving objects:  89% (65/73)used 55 (delta 5), pack-reused 0 eceiving objects:  80% (59/73)
+Receiving objects: 100% (73/73), 139.08 KiB | 389.00 KiB/s, done.
+Resolving deltas: 100% (11/11), done.
+
+C:\suv\devfolio.ethforall-project>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        lw3.io_dao/
+        lw3.io_dex/
+        lw3.io_ico/
+        lw3.io_nft-collection/
+        lw3.io_whitelist-dapp/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\devfolio.ethforall-project>git add .
+warning: adding embedded git repository: lw3.io_dao
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> lw3.io_dao
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached lw3.io_dao
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: lw3.io_dex
+warning: adding embedded git repository: lw3.io_ico
+warning: adding embedded git repository: lw3.io_nft-collection
+warning: adding embedded git repository: lw3.io_whitelist-dapp
+
+C:\suv\devfolio.ethforall-project>
+
+
+C:\suv\devfolio.ethforall-project>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 6AB6-9C8A
+
+ Directory of C:\suv\devfolio.ethforall-project
+
+19-02-2023  14:48    <DIR>          .
+19-02-2023  14:41    <DIR>          ..
+19-02-2023  14:48    <DIR>          1.whitelist-dapp
+19-02-2023  14:48    <DIR>          2.nft-collection
+19-02-2023  14:48    <DIR>          3.ico.web-app
+19-02-2023  14:51    <DIR>          4.dao.web-app
+19-02-2023  14:51    <DIR>          5.DeFi-Exchange
+19-02-2023  14:40               145 README.md
+               1 File(s)            145 bytes
+               7 Dir(s)  144,508,174,336 bytes free
+
+C:\suv\devfolio.ethforall-project>cd 1.whitelist-dapp
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 6AB6-9C8A
+
+ Directory of C:\suv\devfolio.ethforall-project\1.whitelist-dapp
+
+19-02-2023  14:48    <DIR>          .
+19-02-2023  14:48    <DIR>          ..
+19-02-2023  14:43                60 README.md
+19-02-2023  14:49    <DIR>          Whitelist-Dapp
+               1 File(s)             60 bytes
+               3 Dir(s)  144,507,125,760 bytes free
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp>cd Whitelist-Dapp
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp>cd my-app
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+'next' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>cd ..
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp>cd backend
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\backend>cd ..
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp>cd my-app
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>mkdir 1
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>cd 1
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app\1>npx create-next-app@latest
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app\1\my-app.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- @next/font
+
+
+added 18 packages, and audited 19 packages in 25s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Initializing project with template: default
+
+Success! Created my-app at C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app\1\my-app
+
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app\1>cd ..
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 14.1s (165 modules)
+wait  - compiling / (client and server)...
+error - ./pages/index.js:3:0
+Module not found: Can't resolve 'web3modal'
+  1 | import Head from "next/head";
+  2 | import styles from "../styles/Home.module.css";
+> 3 | import Web3Modal from "web3modal";
+  4 | import { providers, Contract } from "ethers";
+  5 | import { useEffect, useRef, useState } from "react";
+  6 | import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling /_error (client and server)...
+error - ./pages/index.js:3:0
+Module not found: Can't resolve 'web3modal'
+  1 | import Head from "next/head";
+  2 | import styles from "../styles/Home.module.css";
+> 3 | import Web3Modal from "web3modal";
+  4 | import { providers, Contract } from "ethers";
+  5 | import { useEffect, useRef, useState } from "react";
+  6 | import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
+
+https://nextjs.org/docs/messages/module-not-found
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>npm install web3modal
+
+added 103 packages, changed 1 package, and audited 122 packages in 7s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>npm install ethers@5
+
+up to date, audited 122 packages in 3s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 11.2s (165 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 5.2s (322 modules)
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>
+
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp\Whitelist-Dapp\my-app>cd ../..
+
+C:\suv\devfolio.ethforall-project\1.whitelist-dapp>cd ..
+
+C:\suv\devfolio.ethforall-project>cd 2.nft-collection
+
+C:\suv\devfolio.ethforall-project\2.nft-collection>npm run dev
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path C:\suv\devfolio.ethforall-project\2.nft-collection/package.json
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\suv\devfolio.ethforall-project\2.nft-collection\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\preda\AppData\Local\npm-cache\_logs\2023-02-19T09_36_11_284Z-debug-0.log
+
+C:\suv\devfolio.ethforall-project\2.nft-collection>cd NFT-Collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+check for this file
+npm ERR!     C:\Users\preda\AppData\Local\npm-cache\_logs\2023-02-19T09_36_11_284Z-debug-0.log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection>cd my-app
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>clear
+
+
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>cls
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+'next' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>mkdir 1
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>cd 1
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app\1>npx create-next-app@latest
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app\1\my-app.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- @next/font
+
+
+added 18 packages, and audited 19 packages in 28s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Initializing project with template: default
+
+Success! Created my-app at C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app\1\my-app
+
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app\1>cd ..
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 12s (165 modules)
+wait  - compiling / (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { Contract, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling /_error (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { Contract, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>npm install web3modal
+
+added 103 packages, changed 1 package, and audited 122 packages in 6s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>npm install ethers@5
+
+up to date, audited 122 packages in 2s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 9.3s (165 modules)
+wait  - compiling /_error (client and server)...
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 5.6s (323 modules)
+warn  - Fast Refresh had to perform a full reload due to a runtime error.
+
+C:\suv\devfolio.ethforall-project\2.nft-collection\NFT-Collection\my-app>cd ../../..
+
+C:\suv\devfolio.ethforall-project>cd 3.ico.web-app
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app>cd ICO
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO>cd my-app
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app>mkdir 1
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app>cd 1
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app\1>npx create-next-app@latest
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app\1\my-app.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- @next/font
+
+
+added 18 packages, and audited 19 packages in 24s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Initializing project with template: default
+
+Success! Created my-app at C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app\1\my-app
+
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app\1>cd ..
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app>npm install web3modal
+
+added 103 packages, changed 1 package, and audited 122 packages in 6s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app>npm install ethers@5
+
+up to date, audited 122 packages in 3s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 12.1s (165 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 4.8s (322 modules)
+
+C:\suv\devfolio.ethforall-project\3.ico.web-app\ICO\my-app>cd ../../..
+
+C:\suv\devfolio.ethforall-project>cd 4.dao.web-app
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app>cd dao-tutorial
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial>cd app
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial\app>npm run dev
+
+> frontend@1.0.0 dev
+> next dev
+
+'next' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial\app>cd ..
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial>mkdir 1
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial>cd 1
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial\1>npx @startertemp/nextjs-hardhat DAO-Tutorial
+Installing web3modal project
+----- Downloading project template to dao-tutorial
+Cloning into 'dao-tutorial'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 46 (delta 3), reused 36 (delta 2), pack-reused 0R
+Receiving objects: 100% (46/46), 25.19 KiB | 185.00 KiB/s, done.
+Resolving deltas: 100% (3/3), done.
+----- Detected Platform win32
+----- Installing Web3Modal
+----- Installing Frontend dependancies
+
+added 121 packages, and audited 122 packages in 33s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+----- Installing Backend dependancies
+[..................] - idealTree:backend: sill idealTree buildDeps                                    [..................] \ idealTree:backend: sill idealTree buildDeps            [..................] | idealTree:backend: sill idealTree bui[..................] / idealTree[..................] - idealTree:backend: sill idealT[..................] \ idealTree:backend: sill idealTree buildDep
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial\1>
+
+
+
+
+
+cls
+
+
+
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial\1>cd ..
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\dao-tutorial>cd ..
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app>cd DAO
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO>cd app
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app>npm run dev
+
+> frontend@1.0.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 4.3s (159 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 13.2s (330 modules)
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app>
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app>mkdir 1
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app>cd 1
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app\1>npx create-next-app@latest
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app\1\my-app.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- @next/font
+
+
+added 18 packages, and audited 19 packages in 22s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Initializing project with template: default
+
+Success! Created my-app at C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app\1\my-app
+
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app\1>c d..
+'c' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app\1>cd
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app\1>cd ..
+
+C:\suv\devfolio.ethforall-project\4.dao.web-app\DAO\app>cd ../../..
+
+C:\suv\devfolio.ethforall-project>cd 5.DeFi-Exchange
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange>cd DEX
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX>cd backend
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX\backend>cd ..
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX>cd my-app
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX\my-app>npm install web3modal
+
+added 103 packages, and audited 122 packages in 6s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX\my-app>npm install ethers@5
+
+up to date, audited 122 packages in 2s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 5.2s (165 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 1527 ms (330 modules)
+
+C:\suv\devfolio.ethforall-project\5.DeFi-Exchange\DEX\my-app>cd ../../../
+
+C:\suv\devfolio.ethforall-project>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   lw3.io_dao
+        new file:   lw3.io_dex
+        new file:   lw3.io_ico
+        new file:   lw3.io_nft-collection
+        new file:   lw3.io_whitelist-dapp
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    lw3.io_dao
+        deleted:    lw3.io_dex
+        deleted:    lw3.io_ico
+        deleted:    lw3.io_nft-collection
+        deleted:    lw3.io_whitelist-dapp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.whitelist-dapp/
+        2.nft-collection/
+        3.ico.web-app/
+        4.dao.web-app/
+        5.DeFi-Exchange/
+
+
+C:\suv\devfolio.ethforall-project>git add .
+
+C:\suv\devfolio.ethforall-project>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.whitelist-dapp/README.md
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/.gitignore
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/README.md
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Lock.sol
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Whitelist.sol
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/hardhat.config.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/package-lock.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/package.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/scripts/deploy.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/test/Lock.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/.gitignore
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/README.md
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/constants/index.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/jsconfig.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/next.config.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/package-lock.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/package.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_app.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_document.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/api/hello.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/index.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/crypto-devs.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/favicon.ico
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/next.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/thirteen.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/vercel.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/styles/Home.module.css
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/styles/globals.css
+        new file:   2.nft-collection/NFT-Collection/backend/.gitignore
+        new file:   2.nft-collection/NFT-Collection/backend/README.md
+        new file:   2.nft-collection/NFT-Collection/backend/constants/index.js
+        new file:   2.nft-collection/NFT-Collection/backend/contracts/CryptoDevs.sol
+        new file:   2.nft-collection/NFT-Collection/backend/contracts/IWhitelist.sol
+        new file:   2.nft-collection/NFT-Collection/backend/contracts/Lock.sol
+        new file:   2.nft-collection/NFT-Collection/backend/hardhat.config.js
+        new file:   2.nft-collection/NFT-Collection/backend/package-lock.json
+        new file:   2.nft-collection/NFT-Collection/backend/package.json
+        new file:   2.nft-collection/NFT-Collection/backend/scripts/deploy.js
+        new file:   2.nft-collection/NFT-Collection/backend/test/Lock.js
+        new file:   2.nft-collection/NFT-Collection/my-app/.gitignore
+        new file:   2.nft-collection/NFT-Collection/my-app/README.md
+        new file:   2.nft-collection/NFT-Collection/my-app/constants/index.js
+        new file:   2.nft-collection/NFT-Collection/my-app/jsconfig.json
+        new file:   2.nft-collection/NFT-Collection/my-app/next.config.js
+        new file:   2.nft-collection/NFT-Collection/my-app/package-lock.json
+        new file:   2.nft-collection/NFT-Collection/my-app/package.json
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/_app.js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/_document.js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/api/[tokenId].js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/api/hello.js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/index.js
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/0.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/1.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/10.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/11.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/12.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/13.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/14.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/15.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/16.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/17.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/18.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/19.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/2.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/3.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/4.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/5.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/6.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/7.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/8.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/9.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/favicon.ico
+        new file:   2.nft-collection/NFT-Collection/my-app/public/next.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/thirteen.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/vercel.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/styles/Home.module.css
+        new file:   2.nft-collection/NFT-Collection/my-app/styles/globals.css
+        new file:   2.nft-collection/README.md
+        new file:   2.nft-collection/Whitelist Contract address
+        new file:   3.ico.web-app/CryptoDevToken Contract Address
+        new file:   3.ico.web-app/ICO/backend/.gitignore
+        new file:   3.ico.web-app/ICO/backend/README.md
+        new file:   3.ico.web-app/ICO/backend/constants/index.js
+        new file:   3.ico.web-app/ICO/backend/contracts/CryptoDevToken.sol
+        new file:   3.ico.web-app/ICO/backend/contracts/ICryptoDevs.sol
+        new file:   3.ico.web-app/ICO/backend/contracts/Lock.sol
+        new file:   3.ico.web-app/ICO/backend/hardhat.config.js
+        new file:   3.ico.web-app/ICO/backend/package-lock.json
+        new file:   3.ico.web-app/ICO/backend/package.json
+        new file:   3.ico.web-app/ICO/backend/scripts/deploy.js
+        new file:   3.ico.web-app/ICO/backend/test/Lock.js
+        new file:   3.ico.web-app/ICO/my-app/.gitignore
+        new file:   3.ico.web-app/ICO/my-app/README.md
+        new file:   3.ico.web-app/ICO/my-app/constants/index.js
+        new file:   3.ico.web-app/ICO/my-app/jsconfig.json
+        new file:   3.ico.web-app/ICO/my-app/next.config.js
+        new file:   3.ico.web-app/ICO/my-app/package-lock.json
+        new file:   3.ico.web-app/ICO/my-app/package.json
+        new file:   3.ico.web-app/ICO/my-app/pages/_app.js
+        new file:   3.ico.web-app/ICO/my-app/pages/_document.js
+        new file:   3.ico.web-app/ICO/my-app/pages/api/hello.js
+        new file:   3.ico.web-app/ICO/my-app/pages/index.js
+        new file:   3.ico.web-app/ICO/my-app/public/0.svg
+        new file:   3.ico.web-app/ICO/my-app/public/favicon.ico
+        new file:   3.ico.web-app/ICO/my-app/public/next.svg
+        new file:   3.ico.web-app/ICO/my-app/public/thirteen.svg
+        new file:   3.ico.web-app/ICO/my-app/public/vercel.svg
+        new file:   3.ico.web-app/ICO/my-app/styles/Home.module.css
+        new file:   3.ico.web-app/ICO/my-app/styles/globals.css
+        new file:   3.ico.web-app/README.md
+        new file:   4.dao.web-app/DAO/.gitignore
+        new file:   4.dao.web-app/DAO/app/.gitignore
+        new file:   4.dao.web-app/DAO/app/components/.gitkeep
+        new file:   4.dao.web-app/DAO/app/constants.js
+        new file:   4.dao.web-app/DAO/app/next.config.js
+        new file:   4.dao.web-app/DAO/app/package.json
+        new file:   4.dao.web-app/DAO/app/pages/_appRain.jsx
+        new file:   4.dao.web-app/DAO/app/pages/api/hello.js
+        new file:   4.dao.web-app/DAO/app/pages/help.jsx
+        new file:   4.dao.web-app/DAO/app/pages/index.jsx
+        new file:   4.dao.web-app/DAO/app/public/cryptodevs/0.svg
+        new file:   4.dao.web-app/DAO/app/public/favicon.ico
+        new file:   4.dao.web-app/DAO/app/public/vercel.svg
+        new file:   4.dao.web-app/DAO/app/styles/Help.module.css
+        new file:   4.dao.web-app/DAO/app/styles/Home.module.css
+        new file:   4.dao.web-app/DAO/app/styles/globals.css
+        new file:   4.dao.web-app/DAO/backend/.gitignore
+        new file:   4.dao.web-app/DAO/backend/constants.js
+        new file:   4.dao.web-app/DAO/backend/contracts/CryptoDevsDAO.sol
+        new file:   4.dao.web-app/DAO/backend/contracts/FakeNFTMarketplace.sol
+        new file:   4.dao.web-app/DAO/backend/contracts/Lock.sol
+        new file:   4.dao.web-app/DAO/backend/hardhat.config.js
+        new file:   4.dao.web-app/DAO/backend/package.json
+        new file:   4.dao.web-app/DAO/backend/scripts/deploy.js
+        new file:   4.dao.web-app/DAO/bin/cli.js
+        new file:   4.dao.web-app/DAO/package-lock.json
+        new file:   4.dao.web-app/DAO/package.json
+        new file:   4.dao.web-app/README.md
+        new file:   4.dao.web-app/contract-addresses
+        new file:   4.dao.web-app/operation_operating-the-app.txt
+        new file:   5.DeFi-Exchange/DEX/backend/.gitignore
+        new file:   5.DeFi-Exchange/DEX/backend/README.md
+        new file:   5.DeFi-Exchange/DEX/backend/constants/index.js
+        new file:   5.DeFi-Exchange/DEX/backend/contracts/Exchange.sol
+        new file:   5.DeFi-Exchange/DEX/backend/contracts/Lock.sol
+        new file:   5.DeFi-Exchange/DEX/backend/hardhat.config.js
+        new file:   5.DeFi-Exchange/DEX/backend/package-lock.json
+        new file:   5.DeFi-Exchange/DEX/backend/package.json
+        new file:   5.DeFi-Exchange/DEX/backend/scripts/deploy.js
+        new file:   5.DeFi-Exchange/DEX/backend/test/Lock.js
+        new file:   5.DeFi-Exchange/DEX/my-app/.gitignore
+        new file:   5.DeFi-Exchange/DEX/my-app/README.md
+        new file:   5.DeFi-Exchange/DEX/my-app/constants/index.js
+        new file:   5.DeFi-Exchange/DEX/my-app/jsconfig.json
+        new file:   5.DeFi-Exchange/DEX/my-app/next.config.js
+        new file:   5.DeFi-Exchange/DEX/my-app/package-lock.json
+        new file:   5.DeFi-Exchange/DEX/my-app/package.json
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/_app.js
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/_document.js
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/api/hello.js
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/index.js
+        new file:   5.DeFi-Exchange/DEX/my-app/public/cryptodev.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/public/favicon.ico
+        new file:   5.DeFi-Exchange/DEX/my-app/public/next.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/public/thirteen.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/public/vercel.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/styles/Home.module.css
+        new file:   5.DeFi-Exchange/DEX/my-app/styles/globals.css
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/addLiquidity.js
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/getAmounts.js
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/removeLiquidity.js
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/swap.js
+        new file:   5.DeFi-Exchange/Exchange Contract Addres
+        new file:   5.DeFi-Exchange/README.md
+
+
+C:\suv\devfolio.ethforall-project>git commit -m "ethforall-project"
+[trunk 7466e45] ethforall-project
+ 174 files changed, 64087 insertions(+)
+ create mode 100644 1.whitelist-dapp/README.md
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/.gitignore
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/README.md
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Lock.sol
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Whitelist.sol
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/hardhat.config.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/package-lock.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/package.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/scripts/deploy.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/test/Lock.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/.gitignore
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/README.md
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/constants/index.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/jsconfig.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/next.config.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/package-lock.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/package.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_app.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_document.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/api/hello.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/index.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/crypto-devs.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/favicon.ico
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/next.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/thirteen.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/vercel.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/styles/Home.module.css
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/styles/globals.css
+ create mode 100644 2.nft-collection/NFT-Collection/backend/.gitignore
+ create mode 100644 2.nft-collection/NFT-Collection/backend/README.md
+ create mode 100644 2.nft-collection/NFT-Collection/backend/constants/index.js
+ create mode 100644 2.nft-collection/NFT-Collection/backend/contracts/CryptoDevs.sol
+ create mode 100644 2.nft-collection/NFT-Collection/backend/contracts/IWhitelist.sol
+ create mode 100644 2.nft-collection/NFT-Collection/backend/contracts/Lock.sol
+ create mode 100644 2.nft-collection/NFT-Collection/backend/hardhat.config.js
+ create mode 100644 2.nft-collection/NFT-Collection/backend/package-lock.json
+ create mode 100644 2.nft-collection/NFT-Collection/backend/package.json
+ create mode 100644 2.nft-collection/NFT-Collection/backend/scripts/deploy.js
+ create mode 100644 2.nft-collection/NFT-Collection/backend/test/Lock.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/.gitignore
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/README.md
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/constants/index.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/jsconfig.json
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/next.config.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/package-lock.json
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/package.json
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/_app.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/_document.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/api/[tokenId].js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/api/hello.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/index.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/0.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/1.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/10.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/11.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/12.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/13.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/14.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/15.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/16.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/17.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/18.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/19.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/2.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/3.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/4.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/5.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/6.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/7.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/8.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/9.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/favicon.ico
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/next.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/thirteen.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/vercel.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/styles/Home.module.css
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/styles/globals.css
+ create mode 100644 2.nft-collection/README.md
+ create mode 100644 2.nft-collection/Whitelist Contract address
+ create mode 100644 3.ico.web-app/CryptoDevToken Contract Address
+ create mode 100644 3.ico.web-app/ICO/backend/.gitignore
+ create mode 100644 3.ico.web-app/ICO/backend/README.md
+ create mode 100644 3.ico.web-app/ICO/backend/constants/index.js
+ create mode 100644 3.ico.web-app/ICO/backend/contracts/CryptoDevToken.sol
+ create mode 100644 3.ico.web-app/ICO/backend/contracts/ICryptoDevs.sol
+ create mode 100644 3.ico.web-app/ICO/backend/contracts/Lock.sol
+ create mode 100644 3.ico.web-app/ICO/backend/hardhat.config.js
+ create mode 100644 3.ico.web-app/ICO/backend/package-lock.json
+ create mode 100644 3.ico.web-app/ICO/backend/package.json
+ create mode 100644 3.ico.web-app/ICO/backend/scripts/deploy.js
+ create mode 100644 3.ico.web-app/ICO/backend/test/Lock.js
+ create mode 100644 3.ico.web-app/ICO/my-app/.gitignore
+ create mode 100644 3.ico.web-app/ICO/my-app/README.md
+ create mode 100644 3.ico.web-app/ICO/my-app/constants/index.js
+ create mode 100644 3.ico.web-app/ICO/my-app/jsconfig.json
+ create mode 100644 3.ico.web-app/ICO/my-app/next.config.js
+ create mode 100644 3.ico.web-app/ICO/my-app/package-lock.json
+ create mode 100644 3.ico.web-app/ICO/my-app/package.json
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/_app.js
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/_document.js
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/api/hello.js
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/index.js
+ create mode 100644 3.ico.web-app/ICO/my-app/public/0.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/public/favicon.ico
+ create mode 100644 3.ico.web-app/ICO/my-app/public/next.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/public/thirteen.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/public/vercel.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/styles/Home.module.css
+ create mode 100644 3.ico.web-app/ICO/my-app/styles/globals.css
+ create mode 100644 3.ico.web-app/README.md
+ create mode 100644 4.dao.web-app/DAO/.gitignore
+ create mode 100644 4.dao.web-app/DAO/app/.gitignore
+ create mode 100644 4.dao.web-app/DAO/app/components/.gitkeep
+ create mode 100644 4.dao.web-app/DAO/app/constants.js
+ create mode 100644 4.dao.web-app/DAO/app/next.config.js
+ create mode 100644 4.dao.web-app/DAO/app/package.json
+ create mode 100644 4.dao.web-app/DAO/app/pages/_appRain.jsx
+ create mode 100644 4.dao.web-app/DAO/app/pages/api/hello.js
+ create mode 100644 4.dao.web-app/DAO/app/pages/help.jsx
+ create mode 100644 4.dao.web-app/DAO/app/pages/index.jsx
+ create mode 100644 4.dao.web-app/DAO/app/public/cryptodevs/0.svg
+ create mode 100644 4.dao.web-app/DAO/app/public/favicon.ico
+ create mode 100644 4.dao.web-app/DAO/app/public/vercel.svg
+ create mode 100644 4.dao.web-app/DAO/app/styles/Help.module.css
+ create mode 100644 4.dao.web-app/DAO/app/styles/Home.module.css
+ create mode 100644 4.dao.web-app/DAO/app/styles/globals.css
+ create mode 100644 4.dao.web-app/DAO/backend/.gitignore
+ create mode 100644 4.dao.web-app/DAO/backend/constants.js
+ create mode 100644 4.dao.web-app/DAO/backend/contracts/CryptoDevsDAO.sol
+ create mode 100644 4.dao.web-app/DAO/backend/contracts/FakeNFTMarketplace.sol
+ create mode 100644 4.dao.web-app/DAO/backend/contracts/Lock.sol
+ create mode 100644 4.dao.web-app/DAO/backend/hardhat.config.js
+ create mode 100644 4.dao.web-app/DAO/backend/package.json
+ create mode 100644 4.dao.web-app/DAO/backend/scripts/deploy.js
+ create mode 100644 4.dao.web-app/DAO/bin/cli.js
+ create mode 100644 4.dao.web-app/DAO/package-lock.json
+ create mode 100644 4.dao.web-app/DAO/package.json
+ create mode 100644 4.dao.web-app/README.md
+ create mode 100644 4.dao.web-app/contract-addresses
+ create mode 100644 4.dao.web-app/operation_operating-the-app.txt
+ create mode 100644 5.DeFi-Exchange/DEX/backend/.gitignore
+ create mode 100644 5.DeFi-Exchange/DEX/backend/README.md
+ create mode 100644 5.DeFi-Exchange/DEX/backend/constants/index.js
+ create mode 100644 5.DeFi-Exchange/DEX/backend/contracts/Exchange.sol
+ create mode 100644 5.DeFi-Exchange/DEX/backend/contracts/Lock.sol
+ create mode 100644 5.DeFi-Exchange/DEX/backend/hardhat.config.js
+ create mode 100644 5.DeFi-Exchange/DEX/backend/package-lock.json
+ create mode 100644 5.DeFi-Exchange/DEX/backend/package.json
+ create mode 100644 5.DeFi-Exchange/DEX/backend/scripts/deploy.js
+ create mode 100644 5.DeFi-Exchange/DEX/backend/test/Lock.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/.gitignore
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/README.md
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/constants/index.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/jsconfig.json
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/next.config.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/package-lock.json
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/package.json
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/_app.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/_document.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/api/hello.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/index.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/cryptodev.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/favicon.ico
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/next.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/thirteen.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/vercel.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/styles/Home.module.css
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/styles/globals.css
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/addLiquidity.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/getAmounts.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/removeLiquidity.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/swap.js
+ create mode 100644 5.DeFi-Exchange/Exchange Contract Addres
+ create mode 100644 5.DeFi-Exchange/README.md
+
+C:\suv\devfolio.ethforall-project>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\devfolio.ethforall-project>
+
+
+
+C:\suv\devfolio.ethforall-project>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\devfolio.ethforall-project>
+
+
+
+
+
+
+
+
+
+
+
+
+C:\suv\devfolio.ethforall-project>git push
+Enumerating objects: 183, done.
+Counting objects: 100% (183/183), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (162/162), done.
+Writing objects: 100% (182/182), 207.19 KiB | 3.63 MiB/s, done.
+Total 182 (delta 55), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (55/55), done.
+To https://github.com/suvrajeet01/devfolio.ethforall-project.git
+   04aa974..7466e45  trunk -> trunk
+
+C:\suv\devfolio.ethforall-project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+///////////////////////////////////////////					   	  GITLAB UPLOAD							    ////////////////////////////////////////////////////
+
+
+
+
+
+
+Readme.md
+
+
+
+
+# devfolio.ethforall-project
+
+
+
+## Getting started
+
+To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+
+Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+
+## Add your files
+
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+
+```
+cd existing_repo
+git remote add origin https://gitlab.com/suvrajeet/devfolio.ethforall-project.git
+git branch -M main
+git push -uf origin main
+```
+
+## Integrate with your tools
+
+- [ ] [Set up project integrations](https://gitlab.com/suvrajeet/devfolio.ethforall-project/-/settings/integrations)
+
+## Collaborate with your team
+
+- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
+- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
+- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+
+## Test and Deploy
+
+Use the built-in continuous integration in GitLab.
+
+- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
+- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
+- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
+- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
+- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+
+***
+
+# Editing this README
+
+When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+
+## Suggestions for a good README
+Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+
+## Name
+Choose a self-explaining name for your project.
+
+## Description
+Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+
+## Badges
+On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+
+## Visuals
+Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+
+## Installation
+Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+
+## Usage
+Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+
+## Support
+Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+
+## Roadmap
+If you have ideas for releases in the future, it is a good idea to list them in the README.
+
+## Contributing
+State if you are open to contributions and what your requirements are for accepting them.
+
+For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+
+You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+
+## Authors and acknowledgment
+Show your appreciation to those who have contributed to the project.
+
+## License
+For open source projects, say how it is licensed.
+
+## Project status
+If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv\project.gitlab>https://gitlab.com/suvrajeet/devfolio.ethforall-project.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\project.gitlab>git clone https://gitlab.com/suvrajeet/devfolio.ethforall-project.git
+Cloning into 'devfolio.ethforall-project'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+Resolving deltas: 100% (1/1), done.
+
+C:\suv\project.gitlab>git config --global user.name "suvrajeet"
+
+C:\suv\project.gitlab>git config --global user.email "suvrajeetbanerjee@gmail.com"
+
+C:\suv\project.gitlab>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\suv\project.gitlab>cd devfolio.ethforall-project
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.whitelist-dapp/
+        2.nft-collection/
+        3.ico.web-app/
+        4.dao.web-app/
+        5.DeFi-Exchange/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git add .
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.whitelist-dapp/README.md
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/.gitignore
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/README.md
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Lock.sol
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Whitelist.sol
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/hardhat.config.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/package-lock.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/package.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/scripts/deploy.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/backend/test/Lock.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/.gitignore
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/README.md
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/constants/index.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/jsconfig.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/next.config.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/package-lock.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/package.json
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_app.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_document.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/api/hello.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/pages/index.js
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/crypto-devs.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/favicon.ico
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/next.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/thirteen.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/public/vercel.svg
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/styles/Home.module.css
+        new file:   1.whitelist-dapp/Whitelist-Dapp/my-app/styles/globals.css
+        new file:   2.nft-collection/NFT-Collection/backend/.gitignore
+        new file:   2.nft-collection/NFT-Collection/backend/README.md
+        new file:   2.nft-collection/NFT-Collection/backend/constants/index.js
+        new file:   2.nft-collection/NFT-Collection/backend/contracts/CryptoDevs.sol
+        new file:   2.nft-collection/NFT-Collection/backend/contracts/IWhitelist.sol
+        new file:   2.nft-collection/NFT-Collection/backend/contracts/Lock.sol
+        new file:   2.nft-collection/NFT-Collection/backend/hardhat.config.js
+        new file:   2.nft-collection/NFT-Collection/backend/package-lock.json
+        new file:   2.nft-collection/NFT-Collection/backend/package.json
+        new file:   2.nft-collection/NFT-Collection/backend/scripts/deploy.js
+        new file:   2.nft-collection/NFT-Collection/backend/test/Lock.js
+        new file:   2.nft-collection/NFT-Collection/my-app/.gitignore
+        new file:   2.nft-collection/NFT-Collection/my-app/README.md
+        new file:   2.nft-collection/NFT-Collection/my-app/constants/index.js
+        new file:   2.nft-collection/NFT-Collection/my-app/jsconfig.json
+        new file:   2.nft-collection/NFT-Collection/my-app/next.config.js
+        new file:   2.nft-collection/NFT-Collection/my-app/package-lock.json
+        new file:   2.nft-collection/NFT-Collection/my-app/package.json
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/_app.js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/_document.js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/api/[tokenId].js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/api/hello.js
+        new file:   2.nft-collection/NFT-Collection/my-app/pages/index.js
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/0.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/1.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/10.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/11.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/12.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/13.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/14.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/15.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/16.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/17.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/18.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/19.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/2.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/3.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/4.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/5.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/6.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/7.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/8.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/cryptodevs/9.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/favicon.ico
+        new file:   2.nft-collection/NFT-Collection/my-app/public/next.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/thirteen.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/public/vercel.svg
+        new file:   2.nft-collection/NFT-Collection/my-app/styles/Home.module.css
+        new file:   2.nft-collection/NFT-Collection/my-app/styles/globals.css
+        new file:   2.nft-collection/README.md
+        new file:   2.nft-collection/Whitelist Contract address
+        new file:   3.ico.web-app/CryptoDevToken Contract Address
+        new file:   3.ico.web-app/ICO/backend/.gitignore
+        new file:   3.ico.web-app/ICO/backend/README.md
+        new file:   3.ico.web-app/ICO/backend/constants/index.js
+        new file:   3.ico.web-app/ICO/backend/contracts/CryptoDevToken.sol
+        new file:   3.ico.web-app/ICO/backend/contracts/ICryptoDevs.sol
+        new file:   3.ico.web-app/ICO/backend/contracts/Lock.sol
+        new file:   3.ico.web-app/ICO/backend/hardhat.config.js
+        new file:   3.ico.web-app/ICO/backend/package-lock.json
+        new file:   3.ico.web-app/ICO/backend/package.json
+        new file:   3.ico.web-app/ICO/backend/scripts/deploy.js
+        new file:   3.ico.web-app/ICO/backend/test/Lock.js
+        new file:   3.ico.web-app/ICO/my-app/.gitignore
+        new file:   3.ico.web-app/ICO/my-app/README.md
+        new file:   3.ico.web-app/ICO/my-app/constants/index.js
+        new file:   3.ico.web-app/ICO/my-app/jsconfig.json
+        new file:   3.ico.web-app/ICO/my-app/next.config.js
+        new file:   3.ico.web-app/ICO/my-app/package-lock.json
+        new file:   3.ico.web-app/ICO/my-app/package.json
+        new file:   3.ico.web-app/ICO/my-app/pages/_app.js
+        new file:   3.ico.web-app/ICO/my-app/pages/_document.js
+        new file:   3.ico.web-app/ICO/my-app/pages/api/hello.js
+        new file:   3.ico.web-app/ICO/my-app/pages/index.js
+        new file:   3.ico.web-app/ICO/my-app/public/0.svg
+        new file:   3.ico.web-app/ICO/my-app/public/favicon.ico
+        new file:   3.ico.web-app/ICO/my-app/public/next.svg
+        new file:   3.ico.web-app/ICO/my-app/public/thirteen.svg
+        new file:   3.ico.web-app/ICO/my-app/public/vercel.svg
+        new file:   3.ico.web-app/ICO/my-app/styles/Home.module.css
+        new file:   3.ico.web-app/ICO/my-app/styles/globals.css
+        new file:   3.ico.web-app/README.md
+        new file:   4.dao.web-app/DAO/.gitignore
+        new file:   4.dao.web-app/DAO/app/.gitignore
+        new file:   4.dao.web-app/DAO/app/components/.gitkeep
+        new file:   4.dao.web-app/DAO/app/constants.js
+        new file:   4.dao.web-app/DAO/app/next.config.js
+        new file:   4.dao.web-app/DAO/app/package.json
+        new file:   4.dao.web-app/DAO/app/pages/_appRain.jsx
+        new file:   4.dao.web-app/DAO/app/pages/api/hello.js
+        new file:   4.dao.web-app/DAO/app/pages/help.jsx
+        new file:   4.dao.web-app/DAO/app/pages/index.jsx
+        new file:   4.dao.web-app/DAO/app/public/cryptodevs/0.svg
+        new file:   4.dao.web-app/DAO/app/public/favicon.ico
+        new file:   4.dao.web-app/DAO/app/public/vercel.svg
+        new file:   4.dao.web-app/DAO/app/styles/Help.module.css
+        new file:   4.dao.web-app/DAO/app/styles/Home.module.css
+        new file:   4.dao.web-app/DAO/app/styles/globals.css
+        new file:   4.dao.web-app/DAO/backend/.gitignore
+        new file:   4.dao.web-app/DAO/backend/constants.js
+        new file:   4.dao.web-app/DAO/backend/contracts/CryptoDevsDAO.sol
+        new file:   4.dao.web-app/DAO/backend/contracts/FakeNFTMarketplace.sol
+        new file:   4.dao.web-app/DAO/backend/contracts/Lock.sol
+        new file:   4.dao.web-app/DAO/backend/hardhat.config.js
+        new file:   4.dao.web-app/DAO/backend/package.json
+        new file:   4.dao.web-app/DAO/backend/scripts/deploy.js
+        new file:   4.dao.web-app/DAO/bin/cli.js
+        new file:   4.dao.web-app/DAO/package-lock.json
+        new file:   4.dao.web-app/DAO/package.json
+        new file:   4.dao.web-app/README.md
+        new file:   4.dao.web-app/contract-addresses
+        new file:   4.dao.web-app/operation_operating-the-app.txt
+        new file:   5.DeFi-Exchange/DEX/backend/.gitignore
+        new file:   5.DeFi-Exchange/DEX/backend/README.md
+        new file:   5.DeFi-Exchange/DEX/backend/constants/index.js
+        new file:   5.DeFi-Exchange/DEX/backend/contracts/Exchange.sol
+        new file:   5.DeFi-Exchange/DEX/backend/contracts/Lock.sol
+        new file:   5.DeFi-Exchange/DEX/backend/hardhat.config.js
+        new file:   5.DeFi-Exchange/DEX/backend/package-lock.json
+        new file:   5.DeFi-Exchange/DEX/backend/package.json
+        new file:   5.DeFi-Exchange/DEX/backend/scripts/deploy.js
+        new file:   5.DeFi-Exchange/DEX/backend/test/Lock.js
+        new file:   5.DeFi-Exchange/DEX/my-app/.gitignore
+        new file:   5.DeFi-Exchange/DEX/my-app/README.md
+        new file:   5.DeFi-Exchange/DEX/my-app/constants/index.js
+        new file:   5.DeFi-Exchange/DEX/my-app/jsconfig.json
+        new file:   5.DeFi-Exchange/DEX/my-app/next.config.js
+        new file:   5.DeFi-Exchange/DEX/my-app/package-lock.json
+        new file:   5.DeFi-Exchange/DEX/my-app/package.json
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/_app.js
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/_document.js
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/api/hello.js
+        new file:   5.DeFi-Exchange/DEX/my-app/pages/index.js
+        new file:   5.DeFi-Exchange/DEX/my-app/public/cryptodev.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/public/favicon.ico
+        new file:   5.DeFi-Exchange/DEX/my-app/public/next.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/public/thirteen.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/public/vercel.svg
+        new file:   5.DeFi-Exchange/DEX/my-app/styles/Home.module.css
+        new file:   5.DeFi-Exchange/DEX/my-app/styles/globals.css
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/addLiquidity.js
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/getAmounts.js
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/removeLiquidity.js
+        new file:   5.DeFi-Exchange/DEX/my-app/utils/swap.js
+        new file:   5.DeFi-Exchange/Exchange Contract Addres
+        new file:   5.DeFi-Exchange/README.md
+
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git commit -m "devfolio.ethforall-project"
+[main c5226f1] devfolio.ethforall-project
+ 174 files changed, 64087 insertions(+)
+ create mode 100644 1.whitelist-dapp/README.md
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/.gitignore
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/README.md
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Lock.sol
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/contracts/Whitelist.sol
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/hardhat.config.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/package-lock.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/package.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/scripts/deploy.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/backend/test/Lock.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/.gitignore
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/README.md
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/constants/index.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/jsconfig.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/next.config.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/package-lock.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/package.json
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_app.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/_document.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/api/hello.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/pages/index.js
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/crypto-devs.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/favicon.ico
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/next.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/thirteen.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/public/vercel.svg
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/styles/Home.module.css
+ create mode 100644 1.whitelist-dapp/Whitelist-Dapp/my-app/styles/globals.css
+ create mode 100644 2.nft-collection/NFT-Collection/backend/.gitignore
+ create mode 100644 2.nft-collection/NFT-Collection/backend/README.md
+ create mode 100644 2.nft-collection/NFT-Collection/backend/constants/index.js
+ create mode 100644 2.nft-collection/NFT-Collection/backend/contracts/CryptoDevs.sol
+ create mode 100644 2.nft-collection/NFT-Collection/backend/contracts/IWhitelist.sol
+ create mode 100644 2.nft-collection/NFT-Collection/backend/contracts/Lock.sol
+ create mode 100644 2.nft-collection/NFT-Collection/backend/hardhat.config.js
+ create mode 100644 2.nft-collection/NFT-Collection/backend/package-lock.json
+ create mode 100644 2.nft-collection/NFT-Collection/backend/package.json
+ create mode 100644 2.nft-collection/NFT-Collection/backend/scripts/deploy.js
+ create mode 100644 2.nft-collection/NFT-Collection/backend/test/Lock.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/.gitignore
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/README.md
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/constants/index.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/jsconfig.json
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/next.config.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/package-lock.json
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/package.json
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/_app.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/_document.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/api/[tokenId].js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/api/hello.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/pages/index.js
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/0.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/1.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/10.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/11.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/12.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/13.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/14.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/15.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/16.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/17.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/18.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/19.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/2.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/3.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/4.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/5.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/6.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/7.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/8.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/cryptodevs/9.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/favicon.ico
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/next.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/thirteen.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/public/vercel.svg
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/styles/Home.module.css
+ create mode 100644 2.nft-collection/NFT-Collection/my-app/styles/globals.css
+ create mode 100644 2.nft-collection/README.md
+ create mode 100644 2.nft-collection/Whitelist Contract address
+ create mode 100644 3.ico.web-app/CryptoDevToken Contract Address
+ create mode 100644 3.ico.web-app/ICO/backend/.gitignore
+ create mode 100644 3.ico.web-app/ICO/backend/README.md
+ create mode 100644 3.ico.web-app/ICO/backend/constants/index.js
+ create mode 100644 3.ico.web-app/ICO/backend/contracts/CryptoDevToken.sol
+ create mode 100644 3.ico.web-app/ICO/backend/contracts/ICryptoDevs.sol
+ create mode 100644 3.ico.web-app/ICO/backend/contracts/Lock.sol
+ create mode 100644 3.ico.web-app/ICO/backend/hardhat.config.js
+ create mode 100644 3.ico.web-app/ICO/backend/package-lock.json
+ create mode 100644 3.ico.web-app/ICO/backend/package.json
+ create mode 100644 3.ico.web-app/ICO/backend/scripts/deploy.js
+ create mode 100644 3.ico.web-app/ICO/backend/test/Lock.js
+ create mode 100644 3.ico.web-app/ICO/my-app/.gitignore
+ create mode 100644 3.ico.web-app/ICO/my-app/README.md
+ create mode 100644 3.ico.web-app/ICO/my-app/constants/index.js
+ create mode 100644 3.ico.web-app/ICO/my-app/jsconfig.json
+ create mode 100644 3.ico.web-app/ICO/my-app/next.config.js
+ create mode 100644 3.ico.web-app/ICO/my-app/package-lock.json
+ create mode 100644 3.ico.web-app/ICO/my-app/package.json
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/_app.js
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/_document.js
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/api/hello.js
+ create mode 100644 3.ico.web-app/ICO/my-app/pages/index.js
+ create mode 100644 3.ico.web-app/ICO/my-app/public/0.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/public/favicon.ico
+ create mode 100644 3.ico.web-app/ICO/my-app/public/next.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/public/thirteen.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/public/vercel.svg
+ create mode 100644 3.ico.web-app/ICO/my-app/styles/Home.module.css
+ create mode 100644 3.ico.web-app/ICO/my-app/styles/globals.css
+ create mode 100644 3.ico.web-app/README.md
+ create mode 100644 4.dao.web-app/DAO/.gitignore
+ create mode 100644 4.dao.web-app/DAO/app/.gitignore
+ create mode 100644 4.dao.web-app/DAO/app/components/.gitkeep
+ create mode 100644 4.dao.web-app/DAO/app/constants.js
+ create mode 100644 4.dao.web-app/DAO/app/next.config.js
+ create mode 100644 4.dao.web-app/DAO/app/package.json
+ create mode 100644 4.dao.web-app/DAO/app/pages/_appRain.jsx
+ create mode 100644 4.dao.web-app/DAO/app/pages/api/hello.js
+ create mode 100644 4.dao.web-app/DAO/app/pages/help.jsx
+ create mode 100644 4.dao.web-app/DAO/app/pages/index.jsx
+ create mode 100644 4.dao.web-app/DAO/app/public/cryptodevs/0.svg
+ create mode 100644 4.dao.web-app/DAO/app/public/favicon.ico
+ create mode 100644 4.dao.web-app/DAO/app/public/vercel.svg
+ create mode 100644 4.dao.web-app/DAO/app/styles/Help.module.css
+ create mode 100644 4.dao.web-app/DAO/app/styles/Home.module.css
+ create mode 100644 4.dao.web-app/DAO/app/styles/globals.css
+ create mode 100644 4.dao.web-app/DAO/backend/.gitignore
+ create mode 100644 4.dao.web-app/DAO/backend/constants.js
+ create mode 100644 4.dao.web-app/DAO/backend/contracts/CryptoDevsDAO.sol
+ create mode 100644 4.dao.web-app/DAO/backend/contracts/FakeNFTMarketplace.sol
+ create mode 100644 4.dao.web-app/DAO/backend/contracts/Lock.sol
+ create mode 100644 4.dao.web-app/DAO/backend/hardhat.config.js
+ create mode 100644 4.dao.web-app/DAO/backend/package.json
+ create mode 100644 4.dao.web-app/DAO/backend/scripts/deploy.js
+ create mode 100644 4.dao.web-app/DAO/bin/cli.js
+ create mode 100644 4.dao.web-app/DAO/package-lock.json
+ create mode 100644 4.dao.web-app/DAO/package.json
+ create mode 100644 4.dao.web-app/README.md
+ create mode 100644 4.dao.web-app/contract-addresses
+ create mode 100644 4.dao.web-app/operation_operating-the-app.txt
+ create mode 100644 5.DeFi-Exchange/DEX/backend/.gitignore
+ create mode 100644 5.DeFi-Exchange/DEX/backend/README.md
+ create mode 100644 5.DeFi-Exchange/DEX/backend/constants/index.js
+ create mode 100644 5.DeFi-Exchange/DEX/backend/contracts/Exchange.sol
+ create mode 100644 5.DeFi-Exchange/DEX/backend/contracts/Lock.sol
+ create mode 100644 5.DeFi-Exchange/DEX/backend/hardhat.config.js
+ create mode 100644 5.DeFi-Exchange/DEX/backend/package-lock.json
+ create mode 100644 5.DeFi-Exchange/DEX/backend/package.json
+ create mode 100644 5.DeFi-Exchange/DEX/backend/scripts/deploy.js
+ create mode 100644 5.DeFi-Exchange/DEX/backend/test/Lock.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/.gitignore
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/README.md
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/constants/index.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/jsconfig.json
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/next.config.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/package-lock.json
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/package.json
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/_app.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/_document.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/api/hello.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/pages/index.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/cryptodev.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/favicon.ico
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/next.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/thirteen.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/public/vercel.svg
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/styles/Home.module.css
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/styles/globals.css
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/addLiquidity.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/getAmounts.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/removeLiquidity.js
+ create mode 100644 5.DeFi-Exchange/DEX/my-app/utils/swap.js
+ create mode 100644 5.DeFi-Exchange/Exchange Contract Addres
+ create mode 100644 5.DeFi-Exchange/README.md
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git push
+Enumerating objects: 183, done.
+Counting objects: 100% (183/183), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (162/162), done.
+Writing objects: 100% (182/182), 207.20 KiB | 3.63 MiB/s, done.
+Total 182 (delta 55), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (55/55), done.
+To https://gitlab.com/suvrajeet/devfolio.ethforall-project.git
+   3d4b16c..c5226f1  main -> main
+
+C:\suv\project.gitlab\devfolio.ethforall-project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\suv\project.gitlab\devfolio.ethforall-project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# **It is simple and a very basic version of a DEX like uniswap but with very powerful functionalities like:**
+	> ### 1. Whitelist Dapp
+	>
+	>> * Whitelist access should be given to the first 10 users for free who want to get in.
+	>> * There exists a website where people can go and enter into the whitelist.
+  
+	> ### 2. NFT Collection
+	>
+	>> * There only exists 20 Crypto Dev NFT's and each one of them are unique.
+	>> * User's are able to mint only 1 NFT with one transaction.
+	>> * Whitelisted users, will have a 5 min presale period before the actual sale where they are guaranteed 1 NFT per transaction.
+	>> * There exists a website for NFT Collection.
+
+	> ### 3. ICO Launch
+	>
+	>> * There exists a max of 10,000 CD tokens.
+	>> * Every Crypto Dev NFT holder gets 10 tokens for free but they would have to pay the gas fees.
+	>> * The price of one CD at the time of ICO is 0.001 ether.
+	>> * There exists a website that users can visit for the ICO.
+
+	> ### 4. DAO for NFT holders
+	>
+	>> * Anyone with a CryptoDevs NFT can create a proposal to purchase a different NFT from an NFT marketplace.
+	>> * Everyone with a CryptoDevs NFT can vote for or against the active proposals.
+	>> * Each NFT counts as one vote for each proposal.
+	>> * Voter cannot vote multiple times on the same proposal with the same NFT.
+	>> * If majority of the voters vote for the proposal by the deadline, the NFT purchase is automatically executed.
+
+	> ### 5. Final WebApp being DEX like Uniswap
+	>
+	>> * An exchange with only one asset pair (Eth / Crypto Dev).
+	>> * Decentralized Exchange takes a fee of 1% on swaps.
+	>> * When user adds liquidity, they are given Crypto Dev LP tokens (Liquidity Provider tokens).
+	>> * CD LP tokens are given proportional to the Ether user is willing to add to the liquidity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# **It is simple and a very basic version of a DEX like uniswap but with very powerful functionalities like:**
+> ### 1. Whitelist Dapp
+>
+>> * Whitelist access should be given to the first 10 users for free who want to get in.
+>> * There exists a website where people can go and enter into the whitelist.
+  
+> ### 2. NFT Collection
+>
+>> * There only exists 20 Crypto Dev NFT's and each one of them are unique.
+>> * User's are able to mint only 1 NFT with one transaction.
+>> * Whitelisted users, will have a 5 min presale period before the actual sale where they are guaranteed 1 NFT per transaction.
+>> * There exists a website for NFT Collection.
+
+> ### 3. ICO Launch
+>
+>> * There exists a max of 10,000 CD tokens.
+>> * Every Crypto Dev NFT holder gets 10 tokens for free but they would have to pay the gas fees.
+>> * The price of one CD at the time of ICO is 0.001 ether.
+>> * There exists a website that users can visit for the ICO.
+
+> ### 4. DAO for NFT holders
+>
+>> * Anyone with a CryptoDevs NFT can create a proposal to purchase a different NFT from an NFT marketplace.
+>> * Everyone with a CryptoDevs NFT can vote for or against the active proposals.
+>> * Each NFT counts as one vote for each proposal.
+>> * Voter cannot vote multiple times on the same proposal with the same NFT.
+>> * If majority of the voters vote for the proposal by the deadline, the NFT purchase is automatically executed.
+
+> ### 5. Final WebApp being DEX like Uniswap
+>
+>> * An exchange with only one asset pair (Eth / Crypto Dev).
+>> * Decentralized Exchange takes a fee of 1% on swaps.
+>> * When user adds liquidity, they are given Crypto Dev LP tokens (Liquidity Provider tokens).
+>> * CD LP tokens are given proportional to the Ether user is willing to add to the liquidity.
